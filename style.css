@@ -1,0 +1,28 @@
+body{
+    background-color: orangered;
+}
+h1{
+    color: aqua;
+}
+div#one{
+    color: blue;
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+}
+button{
+    transform: translateX(500px);
+    animation: move 10s linear forwards alternate infinite;
+}
+@keyframes move{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(1300px);
+    }
+    }
+button:hover{
+    background-color: aqua;
+    cursor: pointer;
+}

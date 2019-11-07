@@ -8,9 +8,20 @@
 </head>
 
 <body>
+
+            <h1>How are you today?</h1>
+            <h2>Click that button to get answer</h2>
+            <button onclick="myFunction()">Answer</button>
+            <p>----------------------------</p>
+            <div id="one"></div>
+
 				<script>
     window.addEventListener("DOMContentLoaded", init);
                    function init(){alert("HELLO BEAUTIFUL");}
+                    function myFunction(){
+                        const a=document.querySelector("p");
+                        a.textContent="I am fine what about you?"
+                    }
     </script>
 </body>
 </html>
